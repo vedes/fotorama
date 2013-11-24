@@ -26,6 +26,7 @@ var $WINDOW = $(window),
     AUTOPLAY_INTERVAL = 5000,
     MARGIN = 2,
     THUMB_SIZE = 64,
+    THUMB_FIT = 'cover',
 
     WIDTH = 500,
     HEIGHT = 333,

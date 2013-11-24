@@ -38,6 +38,7 @@ $.fn.fotorama = function (opts) {
                   thumbheight: THUMB_SIZE,
                   thumbmargin: MARGIN,
                   thumbborderwidth: MARGIN,
+                  thumbfit: THUMB_FIT, // 'cover' || 'contain' || 'scaledown' || 'none'
 
                   allowfullscreen: false, // true || 'native'
 

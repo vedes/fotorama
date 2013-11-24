@@ -645,7 +645,7 @@ jQuery.Fotorama = function ($fotorama, opts) {
           thisData = $this.data(),
           eq = thisData.eq,
           specialMeasures = {h: o_thumbSide2},
-          specialFit = 'cover';
+          specialFit = opts.thumbfit;
 
       specialMeasures.w = thisData.w;
 
